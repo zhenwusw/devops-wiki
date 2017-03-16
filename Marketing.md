@@ -1,0 +1,1 @@
+* [How I make self publish about Ruby on Rails](https://www.nateberkopec.com/blog/2017/03/10/how-i-made-self-publishing-about-ruby-on-rails.html?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website)
