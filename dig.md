@@ -98,3 +98,7 @@ stackexchange.com.	172414	IN	NS	ns-925.awsdns-51.net.
 151.101.1.69
 151.101.193.69
 ```
+
+## 参考
+
+http://www.ruanyifeng.com/blog/2016/06/dns.html
