@@ -98,6 +98,9 @@ stackexchange.com.	172414	IN	NS	ns-925.awsdns-51.net.
 151.101.1.69
 151.101.193.69
 ```
+像指定的 DNS 服务器查询
+
+`dig @4.2.2.2 math.stackexchange.com`
 
 ## 参考
 
