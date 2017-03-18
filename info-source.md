@@ -34,11 +34,10 @@ Media
 
 * http://www.ifanr.com/ (爱范儿) 
 
-* Gmail 推送
+## Gmail 推送
 
 * http://swiftweekly.cn/ (Swift 周刊)
 
-* http://www.yinwang.org/ (王银开喷)
 
 ## 视频
 * http://startupclass.club/steps (YC 创业课中文社区)
