@@ -1,5 +1,7 @@
 Blog
 
+* https://github.com/nixzhu/dev-blog
+
 * https://www.gitbook.com/explore
 
 * http://swift.gg
