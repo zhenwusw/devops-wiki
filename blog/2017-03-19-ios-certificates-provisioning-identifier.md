@@ -27,3 +27,41 @@ with this **Identifier** signed with this **Certificate's** privvate key are oka
 
 **Entillements -** 在 iOS 的 bundle 里面，往往可以发现 Entilements.plish 文件，该文件表明这个应用需要拥有哪些功能。假设
 当你想签名一个应用用于发布到 App Store, 则类似 `get-task-allow` 这类 entilement 则不可以被声明。
+
+
+## 如何创建将应用安装到本地设备
+
+**首先创建 Certificate Signing Request (CSR)**
+In the Applications folder on your Mac, open the Utilities folder and launch Keychain Access.
+
+Within the Keychain Access drop down menu, select Keychain Access > Certificate Assistant > Request a Certificate from a Certificate Authority.
+
+
+- In the Certificate Information window, enter the following information:
+
+  + In the User Email Address field, enter your email address.
+  
+  + In the Common Name field, create a name for your private key (e.g., John Doe Dev Key).
+  
+  + The CA Email Address field should be left empty.
+  
+  + In the "Request is" group, select the "Saved to disk" option.
+  
+- Click Continue within Keychain Access to complete the CSR generating process.
+
+
+经过上面操作后, 一份 CSR 文件被成功创建。非对称加密中必须有一对公钥和私钥。私钥储存在本地 login keychain 中，而公钥
+则存放在 CSR 文件中。
+
+
+**接下来将 CSR 上传到**
+
+成功后你会看到一份可供下载的证书
+
+![download certificate](https://cloud.githubusercontent.com/assets/349215/24081819/c34dcbe2-0cf5-11e7-9dbc-e11373ee4a82.png)
+
+
+双击下载后的证书即可安装到本地，可以通过 login keychina 查看。
+
+接下来，对于每一个 App, 创建一个 App ID
+在根据证书和 APP ID 创建一份 p12 文件，不详叙了 ...
