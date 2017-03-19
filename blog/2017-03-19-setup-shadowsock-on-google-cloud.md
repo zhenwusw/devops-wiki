@@ -36,3 +36,5 @@ gcloud compute --project "gcloud-micro01" ssh --zone "asia-east1-a" "instance-1"
 
 ## 扩展阅读
 * [ Cloud SDK Documentation  | Google Cloud Platform](https://cloud.google.com/sdk/docs/quickstart-mac-os-x)
+
+* http://webfuns.org/78.html
