@@ -28,6 +28,11 @@ SSH 登录
 gcloud compute --project "gcloud-micro01" ssh --zone "asia-east1-a" "instance-1"
 ```
 
+防火墙
+
+![gcp firewall](https://cloud.githubusercontent.com/assets/349215/24078813/1cb51ec6-0cb3-11e7-9c23-3ba0e3dacab7.png)
+
+
 
 ## 扩展阅读
 * [ Cloud SDK Documentation  | Google Cloud Platform](https://cloud.google.com/sdk/docs/quickstart-mac-os-x)
