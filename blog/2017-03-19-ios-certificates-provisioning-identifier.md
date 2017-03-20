@@ -65,3 +65,9 @@ Within the Keychain Access drop down menu, select Keychain Access > Certificate 
 
 接下来，对于每一个 App, 创建一个 App ID
 在根据证书和 APP ID 创建一份 p12 文件，不详叙了 ...
+
+
+
+## 扩展阅读
+
+http://blog.cnbang.net/tech/3386/
