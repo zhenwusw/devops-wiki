@@ -22,6 +22,6 @@
 
 ## 书
 
-[Swifer, Swift, CoreData, Swift 进阶](https://store.objccn.io/products/)
+* [Swifer, Swift, CoreData, Swift 进阶](https://store.objccn.io/products/)
 
 
