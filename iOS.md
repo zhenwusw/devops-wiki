@@ -4,6 +4,15 @@
 
 [Visual format Language](https://cloud.githubusercontent.com/assets/349215/24759856/648a3bc2-1b19-11e7-8937-0731ca05f16e.png)
 
+## Debug AutoLayout Constraints
+
+```shell
+(lldb) po (BOOL)[Address hasAmbiguousLayout]
+(lldb) p (void)[Address exerciseAmbiguityInLayout]
+(lldb) p [CATransaction flush]
+(lldb) p [Address constraintAffectingLayoutForAxis:UILayoutConstraintAxisHorizontal]
+```
+
 ## Great Open Source Apps
 
 [TodayMind: Make Reminder Great Again](https://github.com/cyanzhong/TodayMind)
