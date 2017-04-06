@@ -10,7 +10,7 @@
 (lldb) po (BOOL)[Address hasAmbiguousLayout]
 (lldb) p (void)[Address exerciseAmbiguityInLayout]
 (lldb) p [CATransaction flush]
-(lldb) p [Address constraintAffectingLayoutForAxis:UILayoutConstraintAxisHorizontal]
+(lldb) po [Address constraintsAffectingLayoutForAxis:UILayoutConstraintAxisHorizontal]
 ```
 
 ## Great Open Source Apps
